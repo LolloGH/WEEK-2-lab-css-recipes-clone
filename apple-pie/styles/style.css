@@ -1,0 +1,117 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+    margin: 0;
+}
+
+/*Import the font and set the default size*/
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+}
+
+.header-bg {
+    background-image: url('../images/apple-pie.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#header-bg h1 {
+    color: white;
+    font-size: 3em;
+    font-weight: 100;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#introduccion {
+    text-align: left;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    height: fit-content;
+    display: block;
+}
+
+#introduccion div {
+    display: flex;
+    flex-direction: column;
+}
+
+#introduccion article {
+    font-size: large;
+    text-justify: auto;
+    font-size: 19px;
+}
+
+.img-info {
+    padding: 20px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ingredients {
+    text-align: justify;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    height: fit-content;
+    display: block;
+}
+
+#ingredients div {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 1em;
+}
+
+#ingredients ul {
+    list-style: none;
+    padding: 0 0 0 15px;
+}
+
+#ingredients li {
+    font-weight: 100;
+    font-size: medium;
+}
+
+#ingredients li:before {
+    content: "-";
+    padding-right: 5px;
+}
+
+#directions {
+    text-align: justify;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    height: fit-content;
+    display: block;
+}
+
+#directions div {
+    display: flex;
+    flex-direction: column;
+}
+
+#directions ol {
+    text-align: left;
+    list-style: none;
+    padding: 0 0 0 15px;
+}
+
+#directions li {
+    list-style-type: none;
+    font-size: medium;
+}
