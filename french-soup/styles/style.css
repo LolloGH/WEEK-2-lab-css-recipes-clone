@@ -37,6 +37,15 @@ body{
   
 }
 
+/* .intro {
+  font-size: 1.8rem;
+  font-weight: lighter;
+} */
+
+/* .ingredients, .directions {
+  font-weight: bold;
+} */
+
 h1{
   font-size: 8em;
   font-weight: lighter;
@@ -46,25 +55,37 @@ h1{
 }
 
 h3{
-  font-size: 1.5em;
+  font-size: 1.8em;
   font-weight:lighter;
 }
 
+ol li {
+  counter-increment: incr;
+}
+
 ul, ol {
-  font-size: 0.8em;
-  font-weight: lighter;
+  font-size: 1.1em;
+  font-weight: 100;
   line-height: 30px;
+  counter-reset: incr;
+  list-style: none;
 }
 
-.intro, .ingredients, .directions {
-  font-size: 1.4em;
-
+ol li:before {
+  content: counter(incr) ") ";
 }
+
+ul li:before {
+  content:  "- " ;
+}
+
+
 
 .images {
   position: relative;
   left: 30%;
   width: 40%;
- 
+  margin-bottom: 50px;
+  margin-top: 40px;
 }
 
