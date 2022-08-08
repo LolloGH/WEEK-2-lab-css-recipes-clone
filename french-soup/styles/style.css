@@ -10,9 +10,13 @@ h1, body, html, main {
   margin: 0;
 }
 
-/* body {
-  width: 810px;
-} */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-items: center;
+  margin: 20px 20%;
+}
 
 .hdrBackground {
   background-image: url("../../french-soup/images/soup.jpg");
@@ -26,6 +30,7 @@ h1, body, html, main {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 h1{
@@ -34,18 +39,25 @@ h1{
   text-align: center;
   text-transform: capitalize;
   color: white;
-
 }
 
+h3{
+  font-size: 1.1em;
+  font-weight: lighter;
+}
 
+ul, ol {
+  font-size: 0.8em;
+}
 
-.intro {
-  height: 500px;
-  /* display: flex; 
-  justify-content: center;
-  align-items: center; */
+.intro, .ingredients, .directions {
+  font-size: 1.4em;
 }
 
 .images {
-
+  position: relative;
+  left: 30%;
+  width: 40%;
+ 
 }
+
