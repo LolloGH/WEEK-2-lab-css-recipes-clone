@@ -10,6 +10,10 @@ h1, body, html, main {
   margin: 0;
 }
 
+body{
+  margin-bottom: 100px;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -42,16 +46,19 @@ h1{
 }
 
 h3{
-  font-size: 1.1em;
-  font-weight: lighter;
+  font-size: 1.5em;
+  font-weight:lighter;
 }
 
 ul, ol {
   font-size: 0.8em;
+  font-weight: lighter;
+  line-height: 30px;
 }
 
 .intro, .ingredients, .directions {
   font-size: 1.4em;
+
 }
 
 .images {
